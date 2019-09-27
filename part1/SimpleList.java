@@ -14,6 +14,13 @@ class SimpleList
          Write a loop to add the square of each element from the
          input list into the output list.  Use a "foreach".
       */
+      
+      // newValues.add(element)
+      
+      for(int i : values) {
+    	  i = i * i;
+    	  newValues.add(i);
+      }
 
       return newValues;
    }
