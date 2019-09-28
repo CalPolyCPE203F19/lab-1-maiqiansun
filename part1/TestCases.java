@@ -212,7 +212,7 @@ public class TestCases
 	   
 	   assertEquals(new HashSet<>(expected),
 		         new HashSet<>(ExampleMap.highEnrollmentStudents(
-		            courseListsByStudent, 12)));
+		            courseListsByStudent, 17)));
 	   
 
 

@@ -21,12 +21,12 @@ class ExampleMap
     		  numUnits += c.getNumUnits();
     		  
     	  }
-    	  if(numUnits > 16) {
+    	  if(numUnits > unitThreshold) {
     		  overEnrolledStudents.add(entry.getKey());
     	  }
       }
       
 
-      return overEnrolledStudents;      
+      return overEnrolledStudents;     
    }
 }

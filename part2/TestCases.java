@@ -44,6 +44,7 @@ public class TestCases
       assertEquals(1.107, new Point(1.0, 2.0).getAngle(), 0.001);
    }
    
+   
    @Test
    public void testRotate90()
    {
