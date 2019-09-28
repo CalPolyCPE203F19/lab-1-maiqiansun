@@ -34,7 +34,7 @@ public class TestCases
    {
       // fail("Missing SimpleIf3");
 	   
-      assertEquals(3.9, SimpleIf.max(-1.2, 3.9), DELTA);
+      assertEquals(3.9, SimpleIf.max(3.9, 3.9), DELTA);
       
       /* TO DO: Write one more valid test case. */
    }

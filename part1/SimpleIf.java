@@ -6,13 +6,10 @@ class SimpleIf
          argument is larger and return that value.
       */
 	   
-	   if (Double.compare(x, y) == 0) {
-		   return 0;
-	   }
-	   
-	   else if (Double.compare(x, y) < 0) {
+	   if (Double.compare(x, y) < 0) {
 		   return y;
 	   }
+
 	   
 	   else {
 		   return x;
